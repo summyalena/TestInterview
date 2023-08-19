@@ -25,6 +25,7 @@ function Navigation() {
           <Link key={link.id} href={link.link}>{link.name}</Link>
         ))}
       </nav>
+      
     </header>
   )
 }
